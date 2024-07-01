@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Eider-Regular';
+    src: url('../assets/fonts/Eider-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2d2d2d;
+    font-family: 'Eider-Regular';
+}
+
+canvas {
+    display: block;
+}
+
+#startButton {
+    position: absolute;
+    transform: translate(-50%, 850%);
+    top: 50%;
+    left: 50%;
+    /* width: calc(30% - 20px);  */
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#sendButton{
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -250%);
+    top: 50%;
+    left: 50%;
+    width: calc(30% - 20px); 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#replayButton{
+    display: none;
+    position: absolute;
+    transform: translate(15%, 850%);
+    top: 50%;
+    left: 50%;
+    width: calc(20% - 20px); 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#shareButton{
+    display: none;
+    position: absolute;
+    transform: translate(-110%, 850%);
+    top: 50%;
+    left: 50%;
+    width: calc(20% - 20px); 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
